@@ -10,7 +10,7 @@ import {environment} from '../environments/environment';
 })
 export class CatalogService {
 
-    private apiServerUrl = environment.apiBaseUrl;
+  private apiServerUrl = environment.apiBaseUrl;
 
   constructor(private http: HttpClient) {
   }
